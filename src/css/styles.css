@@ -18,7 +18,7 @@
 @import url('./footer.css');
 
 /* Components style */
-.list-links-navigation {
+.list-link-navigation {
   display: flex;
   gap: 16px;
   justify-content: center;
@@ -32,8 +32,8 @@
   margin: 15px 0;
 }
 
-.list-links-navigation li:hover,
-.list-links-navigation li:focus {
+.list-link-navigation li:hover,
+.list-link-navigation li:focus {
   transition: 0.3s ease-in;
   color: rgb(119, 1, 255);
 }
