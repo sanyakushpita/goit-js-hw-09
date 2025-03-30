@@ -30,3 +30,15 @@
 .gallery-image:hover {
   transform: scale(1.03);
 }
+
+@media (max-width: 768px) {
+  .gallery-item {
+    flex-basis: calc(50% - 16px); /* 2 елементи в ряд */
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-item {
+    flex-basis: 100%; /* 1 елемент в ряд */
+  }
+}
